@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_escritorio"
+            android:icon="@drawable/ic_escritorio"
+            android:title="@string/escritorio" />
+        <item
+            android:id="@+id/nav_ingreso"
+            android:icon="@drawable/ic_ingreso"
+            android:title="@string/ingresos" />
+        <item
+            android:id="@+id/nav_egreso"
+            android:icon="@drawable/ic_egreso"
+            android:title="@string/egresos" />
+
+        <item
+            android:id="@+id/nav_saldo"
+        android:icon="@drawable/ic_deudas"
+            android:title="@string/saldo" />
+    </group>
+
+    <group
+        android:id="@+id/reportes"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:visible="true">
+        <item
+
+            android:id="@+id/nav_rep_ingreso"
+            android:icon="@drawable/ic_repor_ingre"
+            android:title="@string/reporte_ingresos" />
+        <item
+
+            android:id="@+id/nav_rep_egresos"
+            android:icon="@drawable/ic_repor_egre"
+            android:title="@string/reporte_egresos" />
+
+
+    </group>
+
+</menu>
